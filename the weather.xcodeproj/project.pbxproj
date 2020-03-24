@@ -16,6 +16,8 @@
 		D6EE300D242AB67000A8BE00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6EE300B242AB67000A8BE00 /* LaunchScreen.storyboard */; };
 		D6EE3018242AB67000A8BE00 /* the_weatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EE3017242AB67000A8BE00 /* the_weatherTests.swift */; };
 		D6EE3023242AB67000A8BE00 /* the_weatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EE3022242AB67000A8BE00 /* the_weatherUITests.swift */; };
+		D6EE3031242AB6C400A8BE00 /* photo-1530908295418-a12e326966ba.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D6EE3030242AB6C400A8BE00 /* photo-1530908295418-a12e326966ba.jpeg */; };
+		D6FC3E11242ACC4F006BCAEE /* celciusToFar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC3E10242ACC4F006BCAEE /* celciusToFar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		D6EE301E242AB67000A8BE00 /* the weatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "the weatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6EE3022242AB67000A8BE00 /* the_weatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = the_weatherUITests.swift; sourceTree = "<group>"; };
 		D6EE3024242AB67000A8BE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6EE3030242AB6C400A8BE00 /* photo-1530908295418-a12e326966ba.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1530908295418-a12e326966ba.jpeg"; sourceTree = "<group>"; };
+		D6FC3E10242ACC4F006BCAEE /* celciusToFar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celciusToFar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				D6EE2FFF242AB66B00A8BE00 /* SceneDelegate.swift */,
 				D6EE3001242AB66B00A8BE00 /* ViewController.swift */,
 				D6EE3003242AB66B00A8BE00 /* Main.storyboard */,
+				D6FC3E10242ACC4F006BCAEE /* celciusToFar.swift */,
+				D6EE3030242AB6C400A8BE00 /* photo-1530908295418-a12e326966ba.jpeg */,
 				D6EE3009242AB67000A8BE00 /* Assets.xcassets */,
 				D6EE300B242AB67000A8BE00 /* LaunchScreen.storyboard */,
 				D6EE300E242AB67000A8BE00 /* Info.plist */,
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6EE3031242AB6C400A8BE00 /* photo-1530908295418-a12e326966ba.jpeg in Resources */,
 				D6EE300D242AB67000A8BE00 /* LaunchScreen.storyboard in Resources */,
 				D6EE300A242AB67000A8BE00 /* Assets.xcassets in Resources */,
 				D6EE3005242AB66B00A8BE00 /* Main.storyboard in Resources */,
@@ -264,6 +271,7 @@
 			files = (
 				D6EE3008242AB66B00A8BE00 /* the_weather.xcdatamodeld in Sources */,
 				D6EE3002242AB66B00A8BE00 /* ViewController.swift in Sources */,
+				D6FC3E11242ACC4F006BCAEE /* celciusToFar.swift in Sources */,
 				D6EE2FFE242AB66B00A8BE00 /* AppDelegate.swift in Sources */,
 				D6EE3000242AB66B00A8BE00 /* SceneDelegate.swift in Sources */,
 			);
